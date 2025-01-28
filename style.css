@@ -678,6 +678,8 @@ footer{
     color: #3e66f3;
     padding-right: 15px;
     cursor: pointer;
+    text-decoration: none;
+    margin-top: 12px;
     
 }
 
@@ -687,11 +689,14 @@ footer{
     margin-bottom: 0px;
 }
 
+
+
 .footer-text-right{
-    margin-left: 8px;
+    margin-left: -40px;
     color: #3e66f3;
     cursor: pointer;
     font-size: 12px;
+    margin-top: 12px;
 }
 
 .footer {
@@ -699,3 +704,11 @@ footer{
     border-color: #e1e5f3;
     border-width: .50px;
 }
+
+footer a:hover {
+color: black;
+}
+
+footer a:active {
+    color: white;
+    }

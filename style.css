@@ -518,7 +518,22 @@ span {
     border-radius: 20px;
     display: flex;
     flex-direction: column;
+    
 }
+
+#bottom-card2{
+    margin-top: 20px;
+    background-color: #eff1f9;
+    margin-left: 40%;
+    margin-right: 40%;
+    border-radius: 20px;
+    display: none;
+    flex-direction: column;
+    
+}
+
+
+
 
 .basic-plan{
     margin-top: 0px;

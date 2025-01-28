@@ -1,4 +1,20 @@
-
+@keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1) rotate(0deg);
+    }
+    25% {
+      transform: scale(0.5) rotate(90deg);
+    }
+    50% {
+      transform: scale(0) rotate(180deg);
+    }
+    75% {
+      transform: scale(0.75) rotate(270deg);
+    }
+    100% {
+      transform: scale(1) rotate(360deg);
+    }
+  }
 
 body {
     background-color: #f4f7ff;
@@ -223,6 +239,10 @@ span {
 .cadeado {
     margin: 20px;
 }
+
+.cadeado:hover {
+    animation: zoom-in-zoom-out 1s linear 1;
+  }
 
 #center-content {
     background: url(https://mechamou.encinterativa.com.br/assets/about_bg-BGBrJK97.webp) no-repeat center top;

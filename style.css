@@ -27,7 +27,7 @@ html {
 
 /* Estilizando a largura e o fundo da barra de rolagem */
 ::-webkit-scrollbar {
-    width: 7px;
+    width: 10px;
     /* Largura da barra de rolagem */
     background-color: #c9d1e7;
     /* Cor de fundo da barra */
@@ -37,10 +37,8 @@ html {
 ::-webkit-scrollbar-thumb {
     background-color: #3e66f3;
     /* Cor da parte que você arrasta */
-    border-radius: 10px;
-    /* Bordas arredondadas */
-    border: 2px solid #2e4aad;
-    /* Espaço entre a barra e a parte de rolagem */
+    border-radius: 5px;
+
 }
 
 

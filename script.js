@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function () {
             fadeOut(bottomCard);
             setTimeout(function() {
                 fadeIn(bottomCard2);
-            }, 500); 
+            }, 600); 
         } else {
             anual.style.color = 'black'
             mensal.style.color = '#3e66f3'
@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function () {
             fadeOut(bottomCard2);
             setTimeout(function() {
                 fadeIn(bottomCard);
-            }, 500); 
+            }, 600); 
         }
     });
 });

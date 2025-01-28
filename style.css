@@ -781,3 +781,306 @@ footer a:active {
     transition: 0.3s ease;
     color: white;
 }
+
+
+/* Media Queries */
+@media screen and (max-width: 1200px) {
+    header {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .top-body,
+    .content-title-container {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .left-header {
+        font-size: 1.2rem;
+    }
+
+    .left-title {
+        font-size: 14px;
+    }
+
+    .block {
+        margin: 10px;
+        flex: 1;
+    }
+
+    .left-text {
+        font-size: 50px;
+    }
+
+    #solutions-content {
+        flex-direction: column;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #solutions-content-left,
+    #solutions-content-right {
+        flex: 1;
+        margin: 10px;
+    }
+
+    .solution-functions {
+        font-size: 30px;
+    }
+
+    .function-blocks {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .price {
+        font-size: 30px;
+    }
+
+    .card-content {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .right-content img {
+        width: 100%;
+    }
+
+    #center-content {
+        flex-direction: column;
+    }
+
+    #bottom-card,
+    #bottom-card2 {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    #bottom-card img {
+        margin: 0 auto;
+        width: 20%;
+
+    }
+
+    #bottom-card2 img {
+        margin: 0 auto;
+        width: 20%;
+    }
+
+    .card-title {
+        text-align: center;
+    }
+
+    #check-area {
+        margin: 0 auto;
+    }
+
+    #price {
+        margin: 0 auto;
+    }
+
+    .carencia {
+        margin-top: 35px;
+    }
+
+    .ideal {
+        margin: 0 auto;
+    }
+
+    .footer {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .top-body {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .left-header {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    .left-title {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .left-text {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .contact-button {
+        padding: 16px;
+        font-size: 14px;
+    }
+
+    .function-blocks {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .block {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .solution-functions {
+        font-size: 24px;
+    }
+
+    #solutions-content {
+        flex-direction: column;
+    }
+
+    .bottom-title2 {
+        text-align: center;
+    }
+
+
+    .card-content {
+        flex-direction: column;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .right-content img {
+        width: 100%;
+    }
+
+    #center-content {
+        flex-direction: column;
+    }
+
+    #bottom-card,
+    #bottom-card2 {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    #bottom-card img {
+        margin: 0 auto;
+        width: 20%;
+
+    }
+
+    #bottom-card2 img {
+        margin: 0 auto;
+        width: 20%;
+    }
+
+    .card-title {
+        text-align: center;
+    }
+
+    #check-area {
+        margin: 0 auto;
+    }
+
+    #price {
+        margin: 0 auto;
+    }
+
+    .carencia {
+        margin-top: 35px;
+    }
+
+    .ideal {
+        margin: 0 auto;
+    }
+
+    footer {
+        padding: 10px;
+        height: auto;
+    }
+
+    .footer-text-left,
+    .footer-text-right {
+        font-size: 10px;
+        margin-top: 10px;
+    }
+
+    .price {
+        font-size: 28px;
+    }
+
+    .check {
+        font-size: 18px;
+    }
+
+    .goToBack {
+        right: 10px;
+        bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .left-header {
+        font-size: 1rem;
+    }
+
+    .left-title {
+        font-size: 12px;
+    }
+
+    .left-text {
+        font-size: 28px;
+    }
+
+    .contact-button {
+        padding: 12px;
+        font-size: 12px;
+    }
+
+    .left-paragraph {
+        font-size: 14px;
+    }
+
+    .content-title-container h2 {
+        font-size: 30px;
+    }
+
+    .price {
+        font-size: 24px;
+    }
+
+    .function-blocks {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .block {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .solution-functions {
+        font-size: 18px;
+    }
+
+    .footer-text-left,
+    .footer-text-right {
+        font-size: 8px;
+    }
+
+    .check {
+        font-size: 16px;
+    }
+}

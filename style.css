@@ -700,7 +700,7 @@ footer {
     border-width: .50px;
 }
 
-.p-blue {
+.p-blue0 {
     margin-left: 8px;
     color: #3e66f3;
     padding-right: 15px;
@@ -710,10 +710,22 @@ footer {
 
 }
 
+.p-blue1 {
+    margin-left: 53px;
+    color: #3e66f3;
+    padding-right: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 12px;
+
+}
+
+
 .footer-text {
     display: flex;
     flex-direction: row;
     margin-bottom: 0px;
+    align-items: baseline;
 }
 
 
@@ -1024,6 +1036,12 @@ footer a:active {
         right: 10px;
         bottom: 10px;
     }
+
+    .p-blue0 {
+        margin-top: 10px;
+    }
+
+
 }
 
 @media screen and (max-width: 480px) {
@@ -1082,5 +1100,82 @@ footer a:active {
 
     .check {
         font-size: 16px;
+    }
+
+    .right-content img {
+        width: 100%;
+    }
+
+    #center-content {
+        flex-direction: column;
+    }
+
+    #bottom-card,
+    #bottom-card2 {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    #bottom-card img {
+        margin: 0 auto;
+        width: 20%;
+
+    }
+
+    #bottom-card2 img {
+        margin: 0 auto;
+        width: 20%;
+    }
+
+    .card-title {
+        text-align: center;
+    }
+
+    #check-area {
+        margin: 0 auto;
+    }
+
+    #price {
+        margin: 0 auto;
+    }
+
+    .carencia {
+        margin-top: 35px;
+    }
+
+    .ideal {
+        margin: 0 auto;
+    }
+
+    footer {
+        padding: 10px;
+        height: auto;
+    }
+
+    .footer-text-left,
+    .footer-text-right {
+        font-size: 10px;
+        margin-top: 10px;
+    }
+
+    .price {
+        font-size: 28px;
+    }
+
+    .check {
+        font-size: 18px;
+    }
+
+    .goToBack {
+        right: 10px;
+        bottom: 10px;
+    }
+
+    .left-center-content img {
+        width: 100%;
+    }
+
+    .p-blue0 {
+        margin-top: 10px;
     }
 }

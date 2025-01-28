@@ -1,25 +1,53 @@
 @keyframes zoom-in-zoom-out {
     0% {
-      transform: scale(1) rotate(0deg);
+        transform: scale(1) rotate(0deg);
     }
+
     25% {
-      transform: scale(0.5) rotate(90deg);
+        transform: scale(0.5) rotate(90deg);
     }
+
     50% {
-      transform: scale(0) rotate(180deg);
+        transform: scale(0) rotate(180deg);
     }
+
     75% {
-      transform: scale(0.75) rotate(270deg);
+        transform: scale(0.75) rotate(270deg);
     }
+
     100% {
-      transform: scale(1) rotate(360deg);
+        transform: scale(1) rotate(360deg);
     }
-  }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* Estilizando a largura e o fundo da barra de rolagem */
+::-webkit-scrollbar {
+    width: 7px;
+    /* Largura da barra de rolagem */
+    background-color: #c9d1e7;
+    /* Cor de fundo da barra */
+}
+
+/* Cor da parte de rolagem */
+::-webkit-scrollbar-thumb {
+    background-color: #3e66f3;
+    /* Cor da parte que você arrasta */
+    border-radius: 10px;
+    /* Bordas arredondadas */
+    border: 2px solid #2e4aad;
+    /* Espaço entre a barra e a parte de rolagem */
+}
+
 
 body {
     background-color: #f4f7ff;
     font-family: Barlow, Roboto, sans-serif;
-    
+
 }
 
 header {
@@ -242,7 +270,7 @@ span {
 
 .cadeado:hover {
     animation: zoom-in-zoom-out 1s linear 1;
-  }
+}
 
 #center-content {
     background: url(https://mechamou.encinterativa.com.br/assets/about_bg-BGBrJK97.webp) no-repeat center top;
@@ -356,29 +384,29 @@ span {
 
 }
 
-#solutions-content-center{
+#solutions-content-center {
     display: flex;
     flex: 1;
     align-items: center;
     justify-content: center;
-   
+
 
 }
 
-#bottom-title-container{
+#bottom-title-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-#bottom-title{
+#bottom-title {
     display: flex;
     flex-direction: column;
     align-items: center;
     line-height: 1.278;
 }
 
-#bottom-title h1{
+#bottom-title h1 {
     margin-top: 0px;
     font-family: Barlow, Roboto, sans-serif;
     font-size: 40px;
@@ -388,22 +416,22 @@ span {
     font-weight: 700;
 }
 
-#bottom-title h1 span{
+#bottom-title h1 span {
     color: #3e66f3;
     font-weight: 100;
 }
 
-#bottom-title h3{
+#bottom-title h3 {
     color: #3e66f3;
-    
+
 }
 
-#bottom-title p{
+#bottom-title p {
     color: #737887;
     margin-top: 0px;
 }
 
-#toggle-area{
+#toggle-area {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -416,17 +444,17 @@ span {
     display: inline-block;
     width: 46px;
     height: 19px;
-  }
-  
-  /* Hide default HTML checkbox */
-  .switch input {
+}
+
+/* Hide default HTML checkbox */
+.switch input {
     opacity: 0;
     width: 0;
     height: 0;
-  }
-  
-  /* The slider */
-  .slider {
+}
+
+/* The slider */
+.slider {
     position: absolute;
     cursor: pointer;
     top: 0;
@@ -436,9 +464,9 @@ span {
     background-color: #54595f;
     -webkit-transition: .4s;
     transition: .4s;
-  }
-  
-  .slider:before {
+}
+
+.slider:before {
     position: absolute;
     content: "";
     height: 30px;
@@ -448,69 +476,70 @@ span {
     background-color: #fff;
     -webkit-transition: .4s;
     transition: .4s;
-  }
+}
 
 .slider.checked::before {
-    background-color: #3e66f3; /* Azul quando o checkbox estiver marcado */
+    background-color: #3e66f3;
+    /* Azul quando o checkbox estiver marcado */
 }
 
 
-  
-  
-  input:checked + .slider {
+
+
+input:checked+.slider {
     background-color: #3e66f3;
-  }
-  
-  input:focus + .slider {
+}
+
+input:focus+.slider {
     box-shadow: 0 0 1px #3e66f3;
-  }
-  
-  input:checked + .slider:before {
+}
+
+input:checked+.slider:before {
     -webkit-transform: translateX(26px);
     -ms-transform: translateX(26px);
     transform: translateX(26px);
     background-color: #3e66f3;
-  }
-  
-  /* Rounded sliders */
-  .slider.round {
-    border-radius: 34px;
-  }
-  
-  .slider.round:before {
-    border-radius: 50%;
-  }
+}
 
-  .toggle{
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.toggle {
     display: flex;
     flex-direction: row;
     justify-content: center;
-  }
+}
 
-.mensal{
+.mensal {
     margin-right: 30px;
     color: #3e66f3;
 }
 
 
-.anual{
+.anual {
     margin-left: 30px;
 }
 
-#bottom-content{
+#bottom-content {
     display: flex;
     flex-direction: column;
     margin-top: 100px;
     margin-bottom: 50px;
 }
 
-.card-content{
+.card-content {
     display: flex;
     flex-direction: row;
     margin-left: 15%;
 }
 
-#bottom-card{
+#bottom-card {
     margin-top: 20px;
     background-color: #eff1f9;
     margin-left: 40%;
@@ -518,10 +547,10 @@ span {
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    
+
 }
 
-#bottom-card2{
+#bottom-card2 {
     margin-top: 20px;
     background-color: #eff1f9;
     margin-left: 40%;
@@ -529,18 +558,18 @@ span {
     border-radius: 20px;
     display: none;
     flex-direction: column;
-    
+
 }
 
 
 
 
-.basic-plan{
+.basic-plan {
     margin-top: 0px;
     font-size: 30px;
 }
 
-.basic{
+.basic {
     margin-top: 40px;
     margin-bottom: 0px;
     color: #3e66f3;
@@ -548,17 +577,17 @@ span {
     font-size: 15px;
 }
 
-.coracoes{
+.coracoes {
     margin-top: 30px;
 }
 
-.aproveite{
+.aproveite {
     margin-left: 15%;
     font-weight: 500;
     color: #737887;
 }
 
-.bottom-card-subtitle hr{
+.bottom-card-subtitle hr {
     color: #c9d1e7;
     border: solid;
     border-width: .20px;
@@ -567,12 +596,12 @@ span {
     margin-right: 15%;
 }
 
-#price{
+#price {
     display: flex;
     flex-direction: row;
 }
 
-.price{
+.price {
     font-family: Barlow, Roboto, sans-serif;
     font-size: 40px;
     color: #000;
@@ -582,14 +611,14 @@ span {
     margin-left: 15%;
 }
 
-.carencia{
+.carencia {
     font-weight: 500;
     color: #737887;
     margin-left: 10px;
     margin-top: 53px;
 }
 
-.ideal{
+.ideal {
     font-weight: 500;
     color: #737887;
     margin-left: 15%;
@@ -597,13 +626,13 @@ span {
     margin-bottom: 20px;
 }
 
-hr{
+hr {
     margin-top: 30px;
     margin-bottom: 0px;
     margin-right: -8px;
 }
 
-.check{
+.check {
     background-color: #3e66f3;
     border: none;
     width: 30px;
@@ -616,30 +645,30 @@ hr{
     margin-top: 10px;
 }
 
-.check-buttons{
+.check-buttons {
     display: flex;
     flex-direction: column;
 }
 
-.check-text{
+.check-text {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     font-size: 20px;
     margin-left: 20px;
-    justify-content: space-around;    
+    justify-content: space-around;
 }
 
-.check-text span{
+.check-text span {
     font-size: 100;
 }
 
-#check-area{
+#check-area {
     display: flex;
     flex-direction: row;
     margin-left: 15%;
 }
 
-.card-button{
+.card-button {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -648,7 +677,7 @@ hr{
     cursor: pointer;
 }
 
-footer{
+footer {
     background-image: url(https://mechamou.encinterativa.com.br/assets/footer-B7m_z17w.webp);
     background-size: cover;
     height: 80px;
@@ -659,12 +688,12 @@ footer{
     margin-right: -8px;
 }
 
-.copyright{
+.copyright {
     font-size: 12px;
     margin-top: 20px;
 }
 
-.footer-text-left{
+.footer-text-left {
     display: flex;
     flex-direction: row;
     font-size: 12px;
@@ -673,17 +702,17 @@ footer{
     border-width: .50px;
 }
 
-.p-blue{
+.p-blue {
     margin-left: 8px;
     color: #3e66f3;
     padding-right: 15px;
     cursor: pointer;
     text-decoration: none;
     margin-top: 12px;
-    
+
 }
 
-.footer-text{
+.footer-text {
     display: flex;
     flex-direction: row;
     margin-bottom: 0px;
@@ -691,7 +720,7 @@ footer{
 
 
 
-.footer-text-right{
+.footer-text-right {
     margin-left: -40px;
     color: #3e66f3;
     cursor: pointer;
@@ -706,9 +735,51 @@ footer{
 }
 
 footer a:hover {
-color: black;
+    color: black;
 }
 
 footer a:active {
     color: white;
+}
+
+
+
+
+.goToBack {
+    opacity: 0;
+    transition: 0.5s ease;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border: none;
+    border-radius: 50%;
+    padding: 10px 12.5px;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.goToBack {
+    background: #3e66f3;
+    color: white;
+
+}
+
+.goToBack:hover {
+    background: white;
+    color: #3e66f3;
+
+}
+
+.goToBack {
+    svg {
+        width: 1.2rem;
+        height: 1.2rem;
     }
+}
+
+.active {
+    background: #3e66f3;
+    opacity: 1;
+    transition: 0.3s ease;
+    color: white;
+}

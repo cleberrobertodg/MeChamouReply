@@ -1,6 +1,9 @@
+
+
 body {
     background-color: #f4f7ff;
     font-family: Barlow, Roboto, sans-serif;
+    
 }
 
 header {
@@ -94,7 +97,34 @@ span {
     padding-bottom: 12px;
     font-size: 15px;
     font-weight: bold;
+    cursor: pointer;
 
+}
+
+.contact-button:hover {
+    background-color: #2e4aad;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    padding: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contact-button:active {
+    background-color: #fff;
+    color: #3e66f3;
+    border-radius: 30px;
+    border: none;
+    padding: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 .left-text {
@@ -575,6 +605,7 @@ hr{
     justify-content: center;
     margin-top: 10px;
     margin-bottom: 30px;
+    cursor: pointer;
 }
 
 footer{

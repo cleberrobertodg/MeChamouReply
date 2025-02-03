@@ -827,14 +827,14 @@ footer a:active {
 
     #solutions-content {
         flex-direction: column;
-        margin-left: 5%;
+        margin-left: 0px;
         margin-right: 5%;
     }
 
     #solutions-content-left,
     #solutions-content-right {
         flex: 1;
-        margin: 10px;
+        margin: 0px;
     }
 
     .solution-functions {
@@ -851,6 +851,7 @@ footer a:active {
     }
 
     .card-content {
+        flex-direction: column;
         margin-left: 5%;
         margin-right: 5%;
     }
@@ -1041,6 +1042,9 @@ footer a:active {
         margin-top: 10px;
     }
 
+    .texto-direito {
+        font-size: 20px;
+    }
 
 }
 
@@ -1069,6 +1073,7 @@ footer a:active {
 
     .left-paragraph {
         font-size: 14px;
+        text-align: center;
     }
 
     .content-title-container h2 {
